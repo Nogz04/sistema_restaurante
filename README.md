@@ -177,9 +177,11 @@ SistemaRestaurante/
 │   └── notinhaConta.csv
 │
 │
-└── DescricaoNumerada.md
+└── Diagramas/
+│          ├── CasoDeUso.md
+│          ├── DescriçãoNumerada.md
+│
 └── BancoDeDadosSistemaRestaurante.sql
-└── DiagramaDeCasoDeUso.asta
 └── mysql-connector-j-8.1.0.jar
 │
 ├── LICENSE
@@ -190,27 +192,19 @@ SistemaRestaurante/
 
 ### 🗂️ Descrição dos Diretórios e Arquivos
 
-- **`Produto.java`**: Classe que representa o modelo de dados.
-- **`ProdutoForm.java`**: Interface gráfica (Swing) para entrada de dados.
-- **`ProdutoRepository.java`**: Responsável por salvar e carregar produtos do arquivo CSV.
-- **`produtos.csv`**: Arquivo onde os dados são persistidos.
+- **`DAO/`**: Pasta que armazena as classes responsáveis pelos métodos específicos com comandos SQL.
+- **`beans/`**: Pasta que armazena as classes com seus atributos e métodos (models)
+- **`interfaces/`**: Pasta que armazena as interfaces gráficas (forms) do sistema.
+- **`conexao/`**: Pasta responsável por armazenar a classe Conexao.java que faz a conexão do sistema com o BD
+- **`Imagens/`**: Pasta responsável por armazenar as imagens utilizadas na implementação da interface gráfica do sistema
+- **`notinhaConta.csv`**: Arquivo onde a notinha com valor total é persistida.
+- **`Diagramas/`**: Pasta responsável por armazenar os diagramas
+- **`BancoDeDadosSistemaRestaurante.sql`**: Arquivo.sql que contém o Banco de Dados criado no MYSQL
+- **`mysql-connector-j-8.1.0.jar`**: Arquivo.jar que contém a biblioteca que utilizamos para utilizar as funções para criar a conexão com o BD
 - **`LICENSE`**: Arquivo de licença MIT.
 - **`README.md`**: Este arquivo com instruções e explicações do projeto.
 
 ---
-
-## 🧩 Desafio
-
-Como exercício complementar, **projete e implemente as demais funcionalidades do CRUD (Create, Read, Update, Delete)** para produtos:
-
-- 📖 **Listar Produtos**: Leia e exiba todos os produtos cadastrados no CSV.
-- ✏️ **Atualizar Produto**: Permita alterar as informações de um produto existente.
-- ❌ **Excluir Produto**: Implemente uma forma de apagar um produto do CSV.
-
-> 💡 Lembre-se de adaptar o repositório e a interface gráfica para essas operações, sempre mantendo a separação entre lógica de apresentação e acesso a dados.
-
----
-
 
 ## 📄 Licença
 
@@ -220,12 +214,33 @@ Consulte o arquivo [LICENSE](LICENSE) para mais informações.
 ---
 ---
 
-## 👤 Autor
+## 👤 Autores
 
-**Prof. Herysson R. Figueredo**  
+**Matheus Nogueira Albuquerque**  
 Curso de Ciência da Computação – Universidade Franciscana (UFN)
 
-📧 E-mail: herysson.figueiredo@ufn.edu.br  
-🔗 GitHub: [@Herysson](https://github.com/Herysson)  
+📧 E-mail: matheus.nalbuquerque@ufn.edu.br
+
+🔗 GitHub: [@Matheus](https://github.com/Nogz04) 
+
+---
+
+**Romeo Noro Guterres**  
+Curso de Ciência da Computação – Universidade Franciscana (UFN)
+
+📧 E-mail: romeo.noro@ufn.edu.br 
+
+🔗 GitHub: [@Romeo](https://github.com/romeonoro) 
+
+
+---
+
+**Gilberto Morales**  
+Curso de Ciência da Computação – Universidade Franciscana (UFN)
+
+📧 E-mail: g.morales@ufn.edu.br  
+
+🔗 GitHub: [@Gilberto](https://github.com/eumorales) 
+ 
 
 
