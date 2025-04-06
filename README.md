@@ -197,6 +197,7 @@ SistemaRestaurante/
 └── Diagramas/
 │          ├── CasoDeUso.md
 │          ├── DescriçãoNumerada.md
+│          ├── DiagramasDeClasses.md
 │
 └── BancoDeDadosSistemaRestaurante.sql
 └── mysql-connector-j-8.1.0.jar
