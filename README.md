@@ -341,7 +341,6 @@ IniciarPedidosCliente -> IniciarPedidosCliente : dispose()
 #### PlantUML Code VisualizarCarrinho
 
 ```plantuml
-
 @startuml
 actor Cliente
 
@@ -474,6 +473,7 @@ SistemaRestaurante/
 │          ├── CasoDeUso.md
 │          ├── DescriçãoNumerada.md
 │          ├── DiagramasDeClasses.md
+│          ├── DiagramasDeSequencia.md
 │
 └── BancoDeDadosSistemaRestaurante.sql
 └── mysql-connector-j-8.1.0.jar
