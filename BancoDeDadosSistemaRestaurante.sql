@@ -1,5 +1,5 @@
-CREATE DATABASE SistemaRestaurante2;
-USE SistemaRestaurante2;
+CREATE DATABASE SistemaRestaurante;
+USE SistemaRestaurante;
 
 CREATE TABLE Comida (
 
