@@ -63,7 +63,26 @@ Iremos abordar diversas funcionalidades com suas respectivas interfaces, junto c
 
 ## ➡️ Diagrama de Caso de Uso
 
-![Caso de Uso](https://github.com/user-attachments/assets/a9517420-60a3-46c8-b2e8-b5ed97e32168)
+![Caso de Uso](https://github.com/user-attachments/assets/31ca7122-7c0f-4d95-b6cf-0b681be5e240)
+
+## 📚 Descrição de Caso de Uso
+
+### ➝ TelaInicial
+
+![TelaInicial](https://github.com/user-attachments/assets/a494eb12-2b19-4422-9d6b-7f1dd236c8f5)
+
+### ➝ Cardapio
+
+![Cardapio](https://github.com/user-attachments/assets/530b1e79-a9ad-40fc-8b1c-3cbf4c267690)
+
+### ➝ IniciarPedidos
+
+![IniciarPedidos](https://github.com/user-attachments/assets/76d04bff-4c3e-4cba-8a4d-5483b0dfb721)
+
+### ➝ VisualizarCardapio
+
+![VisualizarCardapio](https://github.com/user-attachments/assets/d8f7643d-b37c-480c-92d9-82f4c8007e35)
+
 
 ## 📘 Diagrama de Classes
 
